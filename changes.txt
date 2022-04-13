@@ -1,0 +1,7 @@
+-> user login logo  beside hamburger menu instead of in it
+ 
+
+(imp)   ->hero section in background image
+(imp)    ->reduce font in mobile view
+
+

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.container5 {
+  padding: 0 20px;
+  margin: 70px auto;
+}
+.wrapper5 {
+  width: 100%;
+  background: rgba(10, 10, 10, 0.6);
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.text_section {
+  margin: 70px auto;
+}
+.wrapper5 .title {
+  height: 90px;
+  background: rgba(10, 10, 10, 0.01);
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper5 form {
+  padding: 30px 25px 25px 25px;
+}
+.wrapper5 form .row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper5 form .row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus {
+  border-color: rgb(131, 42, 1);
+  box-shadow: inset 0px 0px 2px 2px rgb(82, 27, 2);
+}
+form .row input::placeholder {
+  color: #999;
+}
+.wrapper5 form .row i {
+  position: absolute;
+
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: rgb(82, 27, 2);
+  border: 1px solid rgb(253, 252, 252);
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper5 form .pass {
+  margin: -8px 0 20px 0;
+}
+.wrapper5 form .pass a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper5 form .pass a:hover {
+  text-decoration: underline;
+}
+.wrapper5 form .button input {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+
+  background: rgb(82, 27, 2);
+  padding: 5px;
+  border: 1px solid rgb(82, 27, 2);
+  cursor: pointer;
+}
+form .button input:hover {
+  background: rgb(82, 27, 2);
+}
+.wrapper5 form .signup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.wrapper5 form .signup-link a {
+  color: #16a085;
+  text-decoration: none;
+}
+form .signup-link a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper5 {
+    width: 100%;
+    background: rgba(10, 10, 10, 0.6);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+}
